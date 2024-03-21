@@ -17,7 +17,7 @@ Peter Lu: Software Engineer - Fullstack Lead
 
 Serena Lew: Software Engineer - Backend Lead
 
-Haocheng Mai: Software Engineer - Web Developer
+Haocheng Mai: Software Engineer - Backend Lead
 
 
 
