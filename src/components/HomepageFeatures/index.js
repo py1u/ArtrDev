@@ -4,32 +4,31 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Quality',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        We insure the highest quality of patrons, and the selection of artists we prequlified, puts in
+        there highest quality of of work for their patrons in return.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Discovery',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Allow talents to be discovered, and for patrons to discover art they
+        didn't know they were interested in, expanding horizons.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Community',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        A place to estabilish a connection between artists and patrons beyond the level of business
       </>
     ),
   },
