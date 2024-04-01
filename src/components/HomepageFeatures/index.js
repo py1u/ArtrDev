@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Quality',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/Group 129.svg').default,
     description: (
       <>
         We insure the highest quality of patrons, and the selection of artists we prequlified, puts in
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Discovery',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/Group 141.svg').default,
     description: (
       <>
         Allow talents to be discovered, and for patrons to discover art they
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Community',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/Group 130.svg').default,
     description: (
       <>
         A place to estabilish a connection between artists and patrons beyond the level of business
