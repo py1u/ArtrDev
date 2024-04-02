@@ -129,7 +129,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Made with ☕ and 💜 by the Artr Team`, 
+        copyright: `Made with ☕ and 💜 by the Artr Team ${new Date().getFullYear()}`, 
         
       },
       prism: {
