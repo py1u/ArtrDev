@@ -16,7 +16,7 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className='hero_job_purpose'>
+        <div className={styles.hero_job_purpose}>
         As a member of the ArtrDev team, you'll immerse yourself in a dynamic environment 
         where collaboration is key and innovation is encouraged. With diverse projects spanning 
         the spectrum of software development and UI/UX design, you'll have the chance to expand 
