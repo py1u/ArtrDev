@@ -16,11 +16,20 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className='hero_job_purpose'>
+        As a member of the ArtrDev team, you'll immerse yourself in a dynamic environment 
+        where collaboration is key and innovation is encouraged. With diverse projects spanning 
+        the spectrum of software development and UI/UX design, you'll have the chance to expand 
+        your skill set alongside seasoned mentors and passionate peers. Whether you're just starting 
+        your journey or bring years of experience to the table, ArtrDev offers a space where continuous 
+        learning and growth are celebrated, ensuring every developer can thrive and contribute to shaping 
+        the future of the Artr platform.
+        </div>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            ArtrDev Tutorial - 5min ⏱️
           </Link>
         </div>
       </div>
