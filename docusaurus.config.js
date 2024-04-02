@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'ArtrDev',
-  tagline: 'Where Creativity Meets Integrity',
+  tagline: 'Where Creativity Meets Code',
   favicon: 'img/artrCircle.svg',
 
   // Set the production url of your site here

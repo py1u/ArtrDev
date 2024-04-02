@@ -4,31 +4,40 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Quality',
-    Svg: require('@site/static/img/Group 129.svg').default,
+    title: 'Collaboration Fuels Innovation',
+    Svg: require('@site/static/img/Group 126.svg').default,
     description: (
       <>
-        We insure the highest quality of patrons, and the selection of artists we prequlified, puts in
-        there highest quality of of work for their patrons in return.
+        Our dev team thrives on shared expertise, collective problem-solving, and the cross-pollination of ideas. 
+        From pair programming sessions to collaborative code reviews, every interaction propels us closer to our goal of 
+        building groundbreaking features and tools for the Artr platform. Together, we're not just writing code; 
+        we're forging a path towards technical excellence, one collaborative breakthrough at a time.
       </>
     ),
   },
   {
-    title: 'Discovery',
-    Svg: require('@site/static/img/Group 141.svg').default,
+    title: 'Empowering Developers to Engineer Inspiring Solutions',
+    Svg: require('@site/static/img/Group 131.svg').default,
     description: (
-      <>
-        Allow talents to be discovered, and for patrons to discover art they
-        didn't know they were interested in, expanding horizons.
+      <> 
+        Team members have access to cutting-edge technologies, comprehensive documentation, 
+        and a supportive community of peers and mentors. Whether you're a seasoned veteran or just 
+        starting your coding journey, ArtrDev equips you with the tools and resources you need to engineer 
+        solutions that inspire and innovate. With every line of code, we're shaping the future of the Artr 
+        platform and pushing the boundaries of what's possible in digital artistry.
       </>
     ),
   },
   {
-    title: 'Community',
-    Svg: require('@site/static/img/Group 130.svg').default,
+    title: 'Building Bridges Between Technical Expertise and Artistic Vision',
+    Svg: require('@site/static/img/Group 127.svg').default,
     description: (
-      <>
-        A place to estabilish a connection between artists and patrons beyond the level of business
+      <> 
+        As developers, we collaborate closely with designers to translate creative concepts into functional, 
+        user-centric experiences. Through agile methodologies, iterative prototyping, and a deep understanding 
+        of both the technical and aesthetic aspects of our work, we bridge the gap between code and creativity. 
+        Together, we're not just building software; we're crafting immersive, seamless experiences 
+        that elevate the Artr platform and inspire users around the world.
       </>
     ),
   },
