@@ -1,10 +1,15 @@
 ---
-description: Create a doc page with rich content.
+id: welcome
+title: A Welcome Doc
+tags:
+  - About Artr
+  - Getting started
+description: Getting to know our platform
 ---
 
-# Hello from Docusaurus
+# Hello from the Artr Dev Team
 
-Are you ready to create the documentation site for your open source project?
+Hello fellow developer! Welcome to ArtrDev: a documentation website that powers the development of Artr.
 
 ## Headers
 
