@@ -14,7 +14,7 @@ Documentation Website for the Artr Team
 - **Elaine Lin:** Marketing, UI/UX Design Lead
 - **Victor Louie** Business Analyst + Research
 
-**DevOps Team:**  
+**SWE Team:**  
 - **Peter Lu:** Software Engineer, Fullstack Lead
 - **Serena Lew:** Software Engineer, Backend Lead
 - **Haocheng Mai:** Software Engineer, Web Dev Lead
