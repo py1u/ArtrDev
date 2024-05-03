@@ -1,10 +1,14 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-# Tutorial Intro
+# Docusaurus Intro
 
-How to build **ArtrDev 5 minutes**.
+How build a documentation website like **ArtrDev 5 minutes**.
+
+**NOTE:** This page shows you how you can build a documentation website like ArtrDev, this does not actually run the development environment for contributing to ArtrDev.
+
+ArtrDev is powered by **Docusaurus** a API that handles building most of the website and allows us to focus on writing and reading our Artr documentation.
 
 ## Getting Started
 
