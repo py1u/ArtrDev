@@ -1,30 +1,25 @@
 ---
 id: welcome
-title: A Welcome Doc
+title: Welcome to ArtrDev
 tags:
   - About Artr
   - Getting started
 description: Getting to know our platform
+
+sidebar_position: 1
 ---
 
-# Hello from the Artr Dev Team
+# Hello from the ArtrDev Team
 
-Hello fellow developer! Welcome to ArtrDev: a documentation website that powers the development of Artr.
+Hello fellow developer! Welcome to ArtrDev: a documentation platform that powers the development for Artr.
 
-## Headers
+## What is ArtrDev?
 
-will show up on the table of contents on the upper right
+ArtrDev is a sister platform for Artr. It houses all the documentation, tools, and resources that will help get you started as a
+Developer
 
-So that your users will know what this page is all about without scrolling down or even without reading too much.
+## What can I expect?
+As a developer for Artr, you gain access to all resources that will help you perform 
 
-## Only h2 and h3 will be in the TOC by default.
 
-You can configure the TOC heading levels either per-document or in the theme configuration.
 
-The headers are well-spaced so that the hierarchy is clear.
-
-- lists will help you
-- present the key points
-- that you want your users to remember
-  - and you may nest them
-    - multiple times
