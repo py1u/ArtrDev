@@ -1,9 +1,9 @@
 {
-    "label": "Tutorial - Basics",
+    "label": "Artr-Setup",
     "position": 4,
     "link": {
       "type": "generated-index",
-      "description": "5 minutes to learn the most important Docusaurus concepts."
+      "description": "How to set up our technology stack"
     }
   }
   
