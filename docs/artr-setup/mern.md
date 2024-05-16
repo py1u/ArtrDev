@@ -44,17 +44,30 @@ The frontend is made up of **React**. The backend is made up of **ExpressJS** an
 
 ## Where to start?
 
-As a software engineer for Artr, you are expected to have some experience in full stack development. Our team emphasizes backend programming and we suggest you start of learning how to use MongoDB and perform RESTful approaches during development as soon as possible. However, learning frontend is great if you are new to web development and has a more beginner friendly approach compared to backend.
+As a software engineer for Artr, you are expected to have some experience in full stack development. Our team emphasizes backend programming and we suggest you start of learning how to use MongoDB and perform RESTful approaches during development as soon as possible. 
 
-Here is a comprehensive roadmap for new developers:
+However, learning frontend is great if you are new to web development and want a more beginner friendly approach compared to backend. Junior software engineers will likely start out developing frontend before transitioning to backend. Backend developers require at least 1 year of experience. 
+
+Here is a comprehensive roadmap for learning the MERN stack:
 
 1. Learn HTML and CSS
 
-These are the building blocks for any frontend developer and understanding the structure of a webpage and how to style using pure css is crucial in developing strong fundementals for creating advanced and engaging user interfaces. 
+These are the building blocks for any frontend developer and understanding the structure of a webpage and how to style using pure css is crucial in developing strong fundementals for creating advanced and engaging user interfaces quickly.  
 
 2. Learn Javascript
 
 Javascript is the most important programming language to learn if you want to be a successful software engineer at Artr. every framework and library in our development pipeline will be javascript. Testing and QA stages will use javascript testing frameworks. Frontend and advanced user interface development will be created using javascript. 
+
+3. Learn React
+React will teach you a popular way to develop user interfaces using their component based methodology. React can be used to change data across a site without reloading a page which makes a smooth user experience. Because React is component based, it speeds up frontend development and allows building complex user interfaces easier.
+
+4. Learn Express + Node
+Express and Node are used together to allow data to be requested and sent between the web page and server. This is where backend development starts. This is crucial in giving our static web page a way to store and retrive data from and for users. NodeJS is the foundation for building web applications. Without NodeJS it would be a challenge to use javascript on the server side. Javascript was orginally a frontend programming language but thanks to NodeJS, JS has become a more general purpose language for frontend and backend.
+
+5. Learn MongoDB
+MongoDB is our database of choice. As a NoSQL database, data is stored in a non tabular and collective fashion. This allows more flexibility and scaleablity for all type of data which is perfect for our platform.
+
+
 
 
 
