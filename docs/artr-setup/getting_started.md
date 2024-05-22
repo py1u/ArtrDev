@@ -1,10 +1,11 @@
 ---
 sidebar_label: 'Getting Started'
-sidebar_position: 4
+sidebar_position: 2
 id: start
 ---
 
 # Getting Set Up For Development
+
 This will show you how to set up our technology stack from scratch.
 
 Here is a list of prerequisites that should be installed:
