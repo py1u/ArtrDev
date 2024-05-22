@@ -1,10 +1,10 @@
 ---
-sidebar_label: 'Intro to MERN'
-sidebar_position: 3
-id: mern
+sidebar_label: 'Our Tech Stack'
+sidebar_position: 1
+id: stack
 ---
 
-## Learning our Start-Up Tech Stack
+# Get To Know Our Technology Stack
 
 *By Peter Lu*
 
