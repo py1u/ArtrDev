@@ -10,7 +10,7 @@ id: stack
 
 **Introduction: Building with Our Tech Stack**
 
-Welcome to Artr's development team! This document will introduce you to our tech stack, the core technology powering our platform. Our stack consists of Firestore, Express.js, React.js, and Node.js. This combination offers a powerful and efficient way to build modern web applications, making it ideal for startups like ours.
+Welcome to Artr's development team! This document will introduce you to our tech stack, the core technology powering our platform. Our stack consists of four main starting technologies: Firestore, Express.js, React.js, and Node.js. This combination offers a powerful and efficient way to build modern web applications, making it ideal for startups like ours.
 
 **Why Our Tech Stack? Benefits for Beginners**
 
