@@ -6,7 +6,7 @@ id: stack
 
 # Our Start-Up Tech Stack
 
-*By Peter Lu*
+Learn the technologies used in development.
 
 **Introduction: Building with Our Tech Stack**
 
