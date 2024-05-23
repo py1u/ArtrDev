@@ -8,16 +8,10 @@ Documentation Website for the Artr Team
 
 ## Authors:
 
-**Business Team:**  
-- **Yishan Luo:** CEO, Finance & Outreach
-- **Leilia Lin:** Technical Program Manager
-- **Elaine Lin:** Marketing, UI/UX Design Lead
-- **Victor Louie** Business Analyst + Research
-
-**SWE Team:**  
-- **Peter Lu:** Software Engineer, Fullstack Lead
-- **Serena Lew:** Software Engineer, Backend Lead
-- **Haocheng Mai:** Software Engineer, Web Dev Lead
+- **Peter Lu** - Software Engineer III, ML Researcher
+- **Serena Lew** - Software Engineer III, Backend Developer
+- **Haocheng Mai** - Software Engineer III, Web Developer
+- **Valerie Wong** - Software Engineer II, UI/UX Developer
 
 This documentation serves as a comprehensive guide for ArtrDev, showcasing the talented individuals comprising the Artr Team and their respective roles within the project.
 
