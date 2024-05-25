@@ -12,7 +12,7 @@ Here is a list of prerequisites that should be installed:
 
 Every technology mentioned, I will add a note explaining it.
 
-This guide will teach you how to set up the tech stack from scratch **for now**. Later on ill have a repo that is cloneable with the entire tech stack set up. There are still some issues with connecting all the technologies so I will fix that asap!
+**Notice:** This guide will teach you how to set up the tech stack from scratch **for now**. Later on ill have a repo that is cloneable with the entire tech stack set up. There are still some issues with connecting all the technologies so I will fix that asap!
 
 Published: 5/21/24
 Updated: 5/25/24
