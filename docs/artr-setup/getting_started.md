@@ -8,14 +8,10 @@ id: start
 
 This will show you how to set up our technology stack from scratch.
 
-Here is a list of prerequisites that should be installed:
-
-Every technology mentioned, I will add a note explaining it.
-
-**Notice:** This guide will teach you how to set up the tech stack from scratch **for now**. Later on ill have a repo that is cloneable with the entire tech stack set up. There are still some issues with connecting all the technologies so I will fix that asap!
+**Notice:** I will teach you how to set up the tech stack from scratch. Later on ill have a repo that is cloneable with the entire tech stack set up. There are still some issues with connecting all the technologies so I will fix that asap!
 
 Published: 5/21/24
-Updated: 5/25/24
+Updated: 5/27/24
 
 ## 1. Set Up A Project Directory
 Create a new directory for your project and navigate into it. You can name the folder whatever you like so long as you can recognize it. I suggest "artr-name-dev" and replace 'name' with your first name'
