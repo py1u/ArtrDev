@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Docusaurus Intro
+# ArtrDev Intro
 
 How build a documentation website like **ArtrDev 5 minutes**.
 
