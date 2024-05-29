@@ -8,6 +8,15 @@ Documentation Website for the Artr Team
 
 ## Authors:
 
+
+**Business Team:**  
+- **Yishan Luo:** CEO, Finance & Outreach
+- **Sabrina Lynch** Senior Consultant
+- **Leilia Lin:** Technical Program Manager
+- **Elaine Lin:** Lead Product Designer
+- **Julia Ma:** Staff Software Engineer
+- **Victor Louie:** Consultant
+
 - **Peter Lu** - Software Engineer III, ML Researcher
 - **Serena Lew** - Software Engineer III, Backend Developer
 - **Haocheng Mai** - Software Engineer III, Backend Developer
