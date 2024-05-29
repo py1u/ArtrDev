@@ -25,9 +25,9 @@ Our tech stack offers several advantages, particularly for developers new to ful
 Let's break down each technology within our tech stack:
 
 - **MongoDB (Database):** A popular NoSQL database known for its scalability and flexibility. MongoDB uses a document-oriented data model, which allows for dynamic schema design and fast querying, making it a great choice for rapidly growing applications.
-- **Express.js (Backend Framework):** A lightweight framework for building web applications and APIs on top of Node.js. It handles server-side logic and communication with the database.
-- **React.js (Frontend Library):** A popular library for creating dynamic and responsive user interfaces. React allows for efficient building of complex interfaces and smooth user experiences.
-- **Node.js (JavaScript Runtime Environment):** Node.js allows you to run JavaScript code outside the browser, on the server-side. This enables communication between the frontend and backend using a single language.
+- **Express (Backend Framework):** A lightweight framework for building web applications and APIs on top of Node.js. It handles server-side logic and communication with the database.
+- **React (Frontend Library):** A popular library for creating dynamic and responsive user interfaces. React allows for efficient building of complex interfaces and smooth user experiences.
+- **NodeJS (JavaScript Runtime Environment):** Node.js allows you to run JavaScript code outside the browser, on the server-side. This enables communication between the frontend and backend using a single language.
 
 **Learning Path for Our Tech Stack Development**
 
