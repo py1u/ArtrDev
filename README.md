@@ -8,6 +8,7 @@ Documentation Website for the Artr Team
 
 ## Authors:
 
+
 **Business Team:**  
 - **Yishan Luo:** CEO, Finance & Outreach
 - **Sabrina Lynch** Senior Consultant
@@ -16,12 +17,11 @@ Documentation Website for the Artr Team
 - **Julia Ma:** Staff Software Engineer
 - **Victor Louie:** Consultant
 
-**SWE Team:**  
-- **Peter Lu:** Software Engineer, Full stack Dev
-- **Serena Lew:** Software Engineer, Backend Lead
-- **Haocheng Mai:** Software Engineer, Backend Dev 
-- **Valerie Wong** Software Engineer, Frontend Dev
-- **Alex Zhang** Software Engineer, Backend Dev 
+- **Peter Lu** - Software Engineer III, ML Researcher
+- **Serena Lew** - Software Engineer III, Backend Developer
+- **Haocheng Mai** - Software Engineer III, Backend Developer
+- **Valerie Wong** - Software Engineer II, UI/UX Developer
+- **Alex Zhang** - Software Engineer II, Backend Developer
 
 This documentation serves as a comprehensive guide for ArtrDev, showcasing the talented individuals comprising the Artr Team and their respective roles within the project.
 
