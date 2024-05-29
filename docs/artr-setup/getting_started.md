@@ -6,12 +6,10 @@ id: start
 
 # Getting Set Up For Development
 
-This will show you how to set up our technology stack from scratch.
-
-**Notice:** I will teach you how to set up the tech stack from scratch. Later on ill have a repo that is cloneable with the entire tech stack set up. There are still some issues with connecting all the technologies so I will fix that asap!
+Lets set up our technology stack. We build Artr from scratch!
 
 Published: 5/21/24
-Updated: 5/27/24
+Updated: 5/28/24
 
 ## 1. Set Up A Project Directory
 Create a new directory for your project and navigate into it. You can name the folder whatever you like so long as you can recognize it. I suggest "artr-name-dev" and replace 'name' with your first name'
