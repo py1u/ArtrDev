@@ -6,71 +6,118 @@ id: start
 
 # Getting Set Up For Development
 
-This will show you how to set up our technology stack from scratch.
+Lets set up our technology stack. We build Artr from scratch!
 
-Here is a list of prerequisites that should be installed:
+Published: 5/21/24
 
-Every technology mentioned, I will add a note explaining it.
+Updated: 5/28/24
 
+This guide will walk you through the process of setting up a powerful stack for developing full-stack web applications. This includes using a document-based database, a server-side framework, a popular front-end library, and a runtime environment for executing JavaScript on the server.
 
-## 1. Set Up A Project Directory
-Create a new directory for your project and navigate into it.
+Here's a detailed setup guide for a MERN stack formatted in Markdown, which you can use in documentation, README files, or any other markdown-supporting environment.
 
-```bash
-mkdir my-fern-project
-cd my-fern-project
-```
+```markdown
 
-## 2. Initialize Node.js 
-Initialize a new Node.js project by running:
+This guide provides instructions for setting up the 4 basic components of the tech stack: MongoDB, Express.js, React, and Node.js.
 
-```
-npm init -y
-```
+## Step 1: Install Node.js and npm
 
-## 3. Setting up Express
-```
-npm install express body-parser cors firebase-admin
-```
+Node.js is the runtime for the server-side application, and npm is the Node package manager.
 
-## 4. Create a Server Directory
-```
-mkdir server
-cd server
-touch index.js
-```
+### Installation:
 
-add this to the index.js file:
-```
-const express = require('express');
-const bodyParser = require('body-parser');
-const cors = require('cors');
-const admin = require('firebase-admin');
-const serviceAccount = require('./path-to-your-service-account-file.json');
+1. **Download Node.js:**
+   - Visit [Node.js website](https://nodejs.org/) and download the LTS version suitable for your OS.
 
-const app = express();
-const port = process.env.PORT || 5000;
+2. **Install Node.js:**
+   - Run the downloaded installer and follow the installation prompts.
 
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://<your-database-name>.firebaseio.com"
-});
+3. **Verify Installation:**
+   - Open a terminal or command prompt and check versions:
+     ```bash
+     node --version
+     npm --version
+     ```
 
-const db = admin.firestore();
+## Step 2: Set Up MongoDB
 
-app.use(cors());
-app.use(bodyParser.json());
+You can install MongoDB locally or use MongoDB Atlas for a cloud-hosted solution.
 
-app.get('/', async (req, res) => {
-  const snapshot = await db.collection('your-collection').get();
-  const data = snapshot.docs.map(doc => doc.data());
-  res.send(data);
-});
+### Local Installation:
 
-// Define other routes here
+1. **Download MongoDB:**
+   - Go to [MongoDB Download Center](https://www.mongodb.com/try/download/community) and choose the version for your OS.
 
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
-});
+2. **Install MongoDB:**
+   - Follow the MongoDB installation guide for your specific operating system.
 
-```
+3. **Start MongoDB:**
+   - Typically, start MongoDB using `mongod` in the terminal.
+
+### Using MongoDB Atlas:
+
+1. **Create an Account and Setup:**
+   - Register or log in at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
+
+2. **Create a Cluster:**
+   - Follow the setup wizard to create a new cluster.
+
+3. **Security Configuration:**
+   - Configure network access and create database users.
+
+4. **Connect to the Cluster:**
+   - Use the provided connection string to connect your app to MongoDB Atlas.
+
+## Step 3: Set Up Express.js and Node.js API
+
+Express.js is used for routing and middleware functionality.
+
+### Basic Express Setup:
+
+1. **Create a Project Directory:**
+   ```bash
+   mkdir myproject
+   cd myproject
+   ```
+
+2. **Initialize a Node.js Project:**
+   ```bash
+   npm init -y
+   ```
+
+3. **Install Express.js:**
+   ```bash
+   npm install express
+   ```
+
+4. **Create a Server File:**
+   - Make a new file named `server.js` with the following content:
+     ```javascript
+     const express = require('express');
+     const app = express();
+     
+     app.get('/', (req, res) => {
+       res.send('Hello World!');
+     });
+     
+     const PORT = process.env.PORT || 3000;
+     app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+     ```
+
+## Step 4: Set Up React
+
+React will be used for the frontend of your application.
+
+1. **Create a React App:**
+   - Use Create React App to set up a new React project:
+     ```bash
+     npx create-react-app my-react-app
+     cd my-react-app
+     npm start
+     ```
+
+   - This sets up a new React project and starts the development server.
+
+## Conclusion
+
+You now have a basic setup for a full-stack web application using Node.js, Express, MongoDB, and React. This setup is ideal for building Artr!
