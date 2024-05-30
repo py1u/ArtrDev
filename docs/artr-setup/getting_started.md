@@ -9,6 +9,7 @@ id: start
 Lets set up our technology stack. We build Artr from scratch!
 
 Published: 5/21/24
+
 Updated: 5/28/24
 
 <!-- ## 1. Set Up A Project Directory
