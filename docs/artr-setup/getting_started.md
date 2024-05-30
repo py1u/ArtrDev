@@ -8,15 +8,17 @@ id: start
 
 Lets set up our technology stack. We build Artr from scratch!
 
+```markdown
 Published: 5/21/24
-
 Updated: 5/28/24
 
-This guide will walk you through the process of setting up a powerful stack for developing full-stack web applications. This includes using a document-based database, a server-side framework, a popular front-end library, and a runtime environment for executing JavaScript on the server.
+## 1. Set Up A Project Directory
+Create a new directory for your project and navigate into it. You can name the folder whatever you like so long as you can recognize it. I suggest "artr-name-dev" and replace 'name' with your first name'
 
-Here's a detailed setup guide for a MERN stack formatted in Markdown, which you can use in documentation, README files, or any other markdown-supporting environment.
-
-```markdown
+```bash
+mkdir artr-name-dev
+cd artr-name-dev
+```
 
 This guide provides instructions for setting up the 4 basic components of the tech stack: MongoDB, Express.js, React, and Node.js.
 
