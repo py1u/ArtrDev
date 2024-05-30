@@ -13,6 +13,12 @@ sidebar_position: 1
 
 Hey fellow developer! Welcome to ArtrDev: a documentation platform that powers the development for Artr.
 
+### Authors:
+
+Peter Lu,  Serena Lew, Haocheng Mai, Valerie Wong, Alex Zhang
+
+
+
 ### What is ArtrDev?
 
 ArtrDev is a sister platform for Artr specifically for developers. It houses all the documentation, tools, and resources that will help you contribute to platform development. 
