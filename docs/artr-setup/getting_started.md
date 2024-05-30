@@ -12,158 +12,111 @@ Published: 5/21/24
 
 Updated: 5/28/24
 
-<!-- ## 1. Set Up A Project Directory
-Create a new directory for your project and navigate into it. You can name the folder whatever you like so long as you can recognize it. I suggest "artr-name-dev" and replace 'name' with your first name'
-
-```bash
-mkdir artr-name-dev
-cd artr-name-dev
-```
-
-## 2. Initialize Node.js 
-Initialize a new Node.js project by running:
-
-```
-npm init -y
-```
-
-## 3. Setting up Express
-```
-npm install express body-parser cors firebase-admin
-```
-
-## 4. Create a Server Directory
-```
-mkdir server
-cd server
-touch index.js
-```
-
-add this to the index.js file:
-```
-const express = require('express');
-const bodyParser = require('body-parser');
-const cors = require('cors');
-const admin = require('firebase-admin');
-const serviceAccount = require('./path-to-your-service-account-file.json');
-
-const app = express();
-const port = process.env.PORT || 5000;
-
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://<your-database-name>.firebaseio.com"
-});
-
-const db = admin.firestore();
-
-app.use(cors());
-app.use(bodyParser.json());
-
-app.get('/', async (req, res) => {
-  const snapshot = await db.collection('your-collection').get();
-  const data = snapshot.docs.map(doc => doc.data());
-  res.send(data);
-});
-
-// Define other routes here
-
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
-});
-
-``` -->
-
 This guide will walk you through the process of setting up a powerful stack for developing full-stack web applications. This includes using a document-based database, a server-side framework, a popular front-end library, and a runtime environment for executing JavaScript on the server.
 
-## Prerequisites
+Here's a detailed setup guide for a MERN stack formatted in Markdown, which you can use in documentation, README files, or any other markdown-supporting environment.
 
-Before you start, ensure you have the following installed:
-- Node.js and npm (Node package manager)
-- Git (optional, for cloning repositories)
+```markdown
 
-## Step 1: Setting Up the Backend
+This guide provides instructions for setting up the 4 basic components of the tech stack: MongoDB, Express.js, React, and Node.js.
 
-### Install MongoDB
-1. Download MongoDB from [MongoDB official site](https://www.mongodb.com/try/download/community).
-2. Follow the installation instructions for your operating system.
+## Step 1: Install Node.js and npm
 
-### Set Up Express and Node.js
-1. Create a new directory for your project and navigate into it:
+Node.js is the runtime for the server-side application, and npm is the Node package manager.
+
+### Installation:
+
+1. **Download Node.js:**
+   - Visit [Node.js website](https://nodejs.org/) and download the LTS version suitable for your OS.
+
+2. **Install Node.js:**
+   - Run the downloaded installer and follow the installation prompts.
+
+3. **Verify Installation:**
+   - Open a terminal or command prompt and check versions:
+     ```bash
+     node --version
+     npm --version
+     ```
+
+## Step 2: Set Up MongoDB
+
+You can install MongoDB locally or use MongoDB Atlas for a cloud-hosted solution.
+
+### Local Installation:
+
+1. **Download MongoDB:**
+   - Go to [MongoDB Download Center](https://www.mongodb.com/try/download/community) and choose the version for your OS.
+
+2. **Install MongoDB:**
+   - Follow the MongoDB installation guide for your specific operating system.
+
+3. **Start MongoDB:**
+   - Typically, start MongoDB using `mongod` in the terminal.
+
+### Using MongoDB Atlas:
+
+1. **Create an Account and Setup:**
+   - Register or log in at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
+
+2. **Create a Cluster:**
+   - Follow the setup wizard to create a new cluster.
+
+3. **Security Configuration:**
+   - Configure network access and create database users.
+
+4. **Connect to the Cluster:**
+   - Use the provided connection string to connect your app to MongoDB Atlas.
+
+## Step 3: Set Up Express.js and Node.js API
+
+Express.js is used for routing and middleware functionality.
+
+### Basic Express Setup:
+
+1. **Create a Project Directory:**
    ```bash
    mkdir myproject
    cd myproject
    ```
-2. Initialize a new Node.js project:
+
+2. **Initialize a Node.js Project:**
    ```bash
    npm init -y
    ```
-3. Install Express and other necessary packages:
+
+3. **Install Express.js:**
    ```bash
-   npm install express mongoose body-parser cors dotenv
-   ```
-4. Create a file named `server.js`:
-   ```bash
-   touch server.js
-   ```
-5. Open `server.js` and set up a basic Express server:
-   ```javascript
-   const express = require('express');
-   const mongoose = require('mongoose');
-   const bodyParser = require('body-parser');
-   const cors = require('cors');
-
-   require('dotenv').config();
-
-   const app = express();
-   const PORT = process.env.PORT || 5000;
-
-   // Middleware
-   app.use(cors());
-   app.use(bodyParser.json());
-
-   // MongoDB connection
-   mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true });
-   const connection = mongoose.connection;
-   connection.once('open', () => {
-       console.log("MongoDB database connection established successfully");
-   })
-
-   app.listen(PORT, () => {
-       console.log(`Server is running on port: ${PORT}`);
-   });
+   npm install express
    ```
 
-## Step 2: Setting Up the Frontend
+4. **Create a Server File:**
+   - Make a new file named `server.js` with the following content:
+     ```javascript
+     const express = require('express');
+     const app = express();
+     
+     app.get('/', (req, res) => {
+       res.send('Hello World!');
+     });
+     
+     const PORT = process.env.PORT || 3000;
+     app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+     ```
 
-### Install React
-1. Navigate back to the root of your project directory:
-   ```bash
-   cd ..
-   ```
-2. Create a React application:
-   ```bash
-   npx create-react-app client
-   ```
-3. Move into the client directory and start the development server to test:
-   ```bash
-   cd client
-   npm start
-   ```
+## Step 4: Set Up React
 
-## Step 3: Integrating the Frontend with Backend
-1. In your React application (inside the `client` directory), install Axios for making API calls:
-   ```bash
-   npm install axios
-   ```
-2. Use Axios in your components to connect to the Express backend.
+React will be used for the frontend of your application.
 
-## Step 4: Environment Configuration
-1. In the root of your backend project, create a `.env` file to store environment variables such as your database URL:
-   ```plaintext
-   MONGODB_URI=mongodb://localhost:27017/mydatabase
-   PORT=5000
-   ```
+1. **Create a React App:**
+   - Use Create React App to set up a new React project:
+     ```bash
+     npx create-react-app my-react-app
+     cd my-react-app
+     npm start
+     ```
+
+   - This sets up a new React project and starts the development server.
 
 ## Conclusion
 
