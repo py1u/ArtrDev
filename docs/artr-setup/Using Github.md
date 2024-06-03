@@ -1,3 +1,4 @@
+---
 sidebar_label: 'Using Github'
 sidebar_position: 3
 id: github
@@ -6,11 +7,11 @@ id: github
 We use Github to monitor and track changes in our development. Here you can see our code base and entire development for Artr.
 Below is a quick guide on git commands and how to perform common github actions as a developer. 
 
-Sure! Here is a documentation on GitHub commands written in Markdown:
+A table of contents has been added!
 
 ---
 
-# GitHub Commands Documentation
+# How to Github
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -43,12 +44,26 @@ Sure! Here is a documentation on GitHub commands written in Markdown:
 8. [Resources](#resources)
 
 ## Introduction
-GitHub is a web-based platform that uses Git for version control. It allows multiple people to work on projects simultaneously. This documentation provides a comprehensive guide to using GitHub commands.
 
+#### What is Github
+GitHub is a web-based platform that uses Git for version control. It allows our developers to work on projects simultaneously. This documentation provides a comprehensive guide to using GitHub commands.
+
+#### What is our Github
+
+Here is the direct link to Artr: https://github.com/ArtrSpace/Artr
 ## GitHub Setup
 
 ### Installing Git
 To install Git, follow the instructions on the [official Git website](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+
+For link to windows: https://git-scm.com/download/win
+
+Here you should download the 64 bit version for windows. 
+
+Check if git is installed: 
+```
+git -v
+```
 
 ### Configuring Git
 After installing Git, configure it with your name and email address:
@@ -57,6 +72,8 @@ After installing Git, configure it with your name and email address:
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 ```
+
+Check if the email you are using for git configuration is the same as your github account email because it does affect how git and github perform authentication checks. 
 
 ## Repository Management
 
