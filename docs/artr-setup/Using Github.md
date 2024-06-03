@@ -1,11 +1,11 @@
 ---
-sidebar_label: 'Using Github'
+sidebar_label: 'Using Git and Github'
 sidebar_position: 3
 id: github
 ---
 
 We use Github to monitor and track changes in our development. Here you can see our code base and entire development for Artr.
-Below is a quick guide on git commands and how to perform common github actions as a developer. 
+Below is a also quick guide on Git commands and how to perform common github actions as a developer. 
 
 A table of contents has been added!
 
@@ -48,6 +48,13 @@ A table of contents has been added!
 #### What is Github
 GitHub is a web-based platform that uses Git for version control. It allows our developers to work on projects simultaneously. This documentation provides a comprehensive guide to using GitHub commands.
 
+Currently we have three Repos:
+
+1. Artr: The main platform we are developing 
+2. ArtrDev: The documentation and tracking platform for developers
+3. ArtrSpaceAI: The AI agent for Artr's fraud detection system
+
+
 #### What is our Github
 
 Here is the direct link to Artr: https://github.com/ArtrSpace/Artr
@@ -61,6 +68,7 @@ For link to windows: https://git-scm.com/download/win
 Here you should download the 64 bit version for windows. 
 
 Check if git is installed: 
+
 ```
 git -v
 ```
@@ -75,7 +83,14 @@ git config --global user.email "your.email@example.com"
 
 Check if the email you are using for git configuration is the same as your github account email because it does affect how git and github perform authentication checks. 
 
+```
+git config --list
+```
+
 ## Repository Management
+
+Learning to manage repositories and begin development is important for getting online for development. The following chapter will 
+show some common steps to working with repositories with git commands. 
 
 ### Creating a Repository
 To create a new repository on GitHub:
