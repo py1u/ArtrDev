@@ -116,6 +116,16 @@ To add changes to the staging area:
 git add .
 ```
 
+To add a single file change to staging area:
+```sh
+git add filename
+```
+
+To unstage a file or files:
+```
+git restore --staged .
+```
+
 ### Committing Changes
 To commit changes with a message:
 
