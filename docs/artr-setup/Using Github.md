@@ -149,6 +149,8 @@ git pull origin branch-name
 
 ## Branch Management
 
+It is very important that you never push changes to the main branch. Always create your own branch. Good practice is to name your branch in this format: name/feature or type of development. Ex: peter/homepage this branch focuses on developing the homepage. For starters, 1 frontend and 1 backend development branch is good.
+
 ### Creating a Branch
 To create a new branch:
 
@@ -186,6 +188,8 @@ git push origin --delete branch-name
 ## Advanced Commands
 
 ### Stashing Changes
+
+This is meant to stash a dirty working directory and go back to a clean directory usually the HEAD commit. 
 To stash changes:
 
 ```sh
