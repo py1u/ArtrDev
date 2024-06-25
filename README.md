@@ -17,6 +17,8 @@ Documentation Website for the Artr Team
 - **Julia Ma:** Staff Software Engineer
 - **Victor Louie:** Consultant
 
+**Software Engineer Team:**
+
 - **Peter Lu** - Software Engineer III, ML Researcher
 - **Serena Lew** - Software Engineer III, Backend Developer
 - **Haocheng Mai** - Software Engineer III, Backend Developer
