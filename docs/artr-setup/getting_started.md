@@ -6,18 +6,6 @@ id: start
 
 # Getting Set Up For Development
 
-Lets set up our technology stack. We build Artr from scratch!
-
-Published: 5/21/24
-
-Updated: 5/28/24
-
-This guide will walk you through the process of setting up a powerful stack for developing full-stack web applications. This includes using a document-based database, a server-side framework, a popular front-end library, and a runtime environment for executing JavaScript on the server.
-
-Here's a detailed setup guide for a MERN stack formatted in Markdown, which you can use in documentation, README files, or any other markdown-supporting environment.
-
-```markdown
-
 This guide provides instructions for setting up the 4 basic components of the tech stack: MongoDB, Express.js, React, and Node.js.
 
 ## Step 1: Install Node.js and npm
@@ -68,56 +56,37 @@ You can install MongoDB locally or use MongoDB Atlas for a cloud-hosted solution
 4. **Connect to the Cluster:**
    - Use the provided connection string to connect your app to MongoDB Atlas.
 
-## Step 3: Set Up Express.js and Node.js API
-
-Express.js is used for routing and middleware functionality.
-
-### Basic Express Setup:
-
-1. **Create a Project Directory:**
-   ```bash
-   mkdir myproject
-   cd myproject
+## Step 3: Set Up NextJS
+1. **Create a projeect directory to store your work locally**
+   ```markdown
+   mkdir project-name
+   cd project-name
    ```
 
-2. **Initialize a Node.js Project:**
-   ```bash
-   npm init -y
+2. **Git clone the artr repo**
+   ```markdown
+   git clone https://github.com/ArtrSpace/Artr.git
+   ```
+- This contains a README.md from the repo. Delete or copy the markdown content since installing NextJs will create a file directory with a README.md
+
+3. **Installing NextJS**
+   Have [NodeJS 18.17 or later](https://nodejs.org/) before installing.
+   ```markdown
+   npx create-next-app@latest
+   ```
+   The following prompts are asked in terminal
+   ```
+   What is your project named? my-app
+   Would you like to use TypeScript? No / Yes
+   Would you like to use ESLint? No / Yes
+   Would you like to use Tailwind CSS? No / Yes
+   Would you like to use `src/` directory? No / Yes
+   Would you like to use App Router? (recommended) No / Yes
+   Would you like to customize the default import alias (@/*)? No / Yes
+   What import alias would you like configured? @/*
    ```
 
-3. **Install Express.js:**
-   ```bash
-   npm install express
-   ```
-
-4. **Create a Server File:**
-   - Make a new file named `server.js` with the following content:
-     ```javascript
-     const express = require('express');
-     const app = express();
-     
-     app.get('/', (req, res) => {
-       res.send('Hello World!');
-     });
-     
-     const PORT = process.env.PORT || 3000;
-     app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
-     ```
-
-## Step 4: Set Up React
-
-React will be used for the frontend of your application.
-
-1. **Create a React App:**
-   - Use Create React App to set up a new React project:
-     ```bash
-     npx create-react-app my-react-app
-     cd my-react-app
-     npm start
-     ```
-
-   - This sets up a new React project and starts the development server.
-
+   
 ## Conclusion
 
 You now have a basic setup for a full-stack web application using Node.js, Express, MongoDB, and React. This setup is ideal for building Artr!
