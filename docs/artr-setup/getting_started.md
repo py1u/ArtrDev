@@ -86,7 +86,10 @@ You can install MongoDB locally or use MongoDB Atlas for a cloud-hosted solution
    What import alias would you like configured? @/*
    ```
 
-   
+   NextJS is now set up with React and Tailwind.
+
+4. **Connecting NextJS To MongoDB**
+   We have to connect NextJS with a database
 ## Conclusion
 
 You now have a basic setup for a full-stack web application using Node.js, Express, MongoDB, and React. This setup is ideal for building Artr!
