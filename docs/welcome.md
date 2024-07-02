@@ -32,11 +32,6 @@ As a developer for Artr, you gain access to all resources that will help you fol
 ### Where should I start?
 
 Begin by familarizing yourself with site navigation with the side navbar(left). All sections are prioritized by development consistency. This means you'll see more important sections that will help you perform rapid development.  
-<br/><br/>
-<br/><br/>
-A big thanks to the creators of Docusuarus, the react based documention website that powers the development of our platform.
-
-*special note*: Thank you to Minsoo Kim for teaching how to write documentation and software development and Michelle Kim for teaching UI UX and product design :heart:  
 
 
 
