@@ -35,8 +35,8 @@ npm init docusaurus@latest my-website classic
 
 Artr developers can contribute to ArtrDev.
 
-1. **Clone the repository** 
-
+1. **Clone the repository** ```git clone https://github.com/ArtrSpace/ArtrDev.git ```
+2. run ```npm install``` 
 
 You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
 
