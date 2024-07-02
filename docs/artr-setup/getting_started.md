@@ -6,69 +6,87 @@ id: start
 
 # Getting Set Up For Development
 
-Lets set up our technology stack. We build Artr from scratch!
+This guide provides instructions for setting up the 4 basic components of the tech stack: MongoDB, Express.js, React, and Node.js.
 
-Published: 5/21/24
-Updated: 5/28/24
+## Step 1: Install Node.js and npm
 
-## 1. Set Up A Project Directory
-Create a new directory for your project and navigate into it. You can name the folder whatever you like so long as you can recognize it. I suggest "artr-name-dev" and replace 'name' with your first name'
+Node.js is the runtime for the server-side application, and npm is the Node package manager.
 
-```bash
-mkdir artr-name-dev
-cd artr-name-dev
-```
+### Installation:
 
-## 2. Initialize Node.js 
-Initialize a new Node.js project by running:
+1. **Download Node.js:**
+   - Visit [Node.js website](https://nodejs.org/) and download the LTS version suitable for your OS.
 
-```
-npm init -y
-```
+2. **Install Node.js:**
+   - Run the downloaded installer and follow the installation prompts.
 
-## 3. Setting up Express
-```
-npm install express body-parser cors firebase-admin
-```
+3. **Verify Installation:**
+   - Open a terminal or command prompt and check versions:
+     ```bash
+     node --version
+     npm --version
+     ```
 
-## 4. Create a Server Directory
-```
-mkdir server
-cd server
-touch index.js
-```
+## Step 2: Set Up MongoDB
 
-add this to the index.js file:
-```
-const express = require('express');
-const bodyParser = require('body-parser');
-const cors = require('cors');
-const admin = require('firebase-admin');
-const serviceAccount = require('./path-to-your-service-account-file.json');
+You can install MongoDB locally or use MongoDB Atlas for a cloud-hosted solution.
 
-const app = express();
-const port = process.env.PORT || 5000;
+### Local Installation:
 
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://<your-database-name>.firebaseio.com"
-});
+1. **Download MongoDB:**
+   - Go to [MongoDB Download Center](https://www.mongodb.com/try/download/community) and choose the version for your OS.
 
-const db = admin.firestore();
+2. **Install MongoDB:**
+   - Follow the MongoDB installation guide for your specific operating system.
 
-app.use(cors());
-app.use(bodyParser.json());
+3. **Start MongoDB:**
+   - Typically, start MongoDB using `mongod` in the terminal.
 
-app.get('/', async (req, res) => {
-  const snapshot = await db.collection('your-collection').get();
-  const data = snapshot.docs.map(doc => doc.data());
-  res.send(data);
-});
+### Using MongoDB Atlas:
 
-// Define other routes here
+1. **Create an Account and Setup:**
+   - Register or log in at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
 
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
-});
+2. **Create a Cluster:**
+   - Follow the setup wizard to create a new cluster.
 
-```
+3. **Security Configuration:**
+   - Configure network access and create database users.
+
+4. **Connect to the Cluster:**
+   - Use the provided connection string to connect your app to MongoDB Atlas.
+
+## Step 3: Set Up NextJS
+1. **Create a projeect directory to store your work locally**
+   ```markdown
+   mkdir project-name
+   cd project-name
+   ```
+
+2. **Git clone the artr repo**
+   ```markdown
+   git clone https://github.com/ArtrSpace/Artr.git
+   ```
+- This contains a README.md from the repo. Delete or copy the markdown content since installing NextJs will create a file directory with a README.md
+
+3. **Installing NextJS**
+   Have [NodeJS 18.17 or later](https://nodejs.org/) before installing.
+   ```markdown
+   npx create-next-app@latest
+   ```
+   The following prompts are asked in terminal
+   ```
+   What is your project named? my-app
+   Would you like to use TypeScript? No / Yes
+   Would you like to use ESLint? No / Yes
+   Would you like to use Tailwind CSS? No / Yes
+   Would you like to use `src/` directory? No / Yes
+   Would you like to use App Router? (recommended) No / Yes
+   Would you like to customize the default import alias (@/*)? No / Yes
+   What import alias would you like configured? @/*
+   ```
+
+   NextJS is now set up with React and Tailwind.
+
+4. **Connecting NextJS To MongoDB**
+   We have to connect NextJS with a database
