@@ -2,9 +2,9 @@
 sidebar_position: 2
 ---
 
-# ArtrDev Intro
+# ArtrDev Build
 
-How build a documentation website like **ArtrDev 5 minutes**.
+How build **ArtrDev**.
 
 **NOTE:** This page shows you how you can build a documentation website like ArtrDev, this does not actually run the development environment for contributing to ArtrDev.
 
@@ -30,6 +30,13 @@ The classic template will automatically be added to your project after you run t
 ```bash
 npm init docusaurus@latest my-website classic
 ```
+
+# Development for ArtrDev
+
+Artr developers can contribute to ArtrDev.
+
+1. **Clone the repository** 
+
 
 You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
 
