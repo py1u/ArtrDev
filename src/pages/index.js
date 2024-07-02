@@ -17,10 +17,10 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.hero_job_purpose}>
-        As a member of the ArtrDev team, you'll immerse yourself in a dynamic environment 
+        As a developer for Artr, you'll immerse yourself in a dynamic environment 
         where collaboration is key and innovation is encouraged. With diverse projects spanning 
         the spectrum of software development and UI/UX design, you'll have the chance to expand 
-        your skill set alongside our Software Engineering Team. Whether you're just starting 
+        your skill set alongside our software engineers. Whether you're just starting 
         your journey or bring years of experience to the table, ArtrDev offers a space where continuous 
         learning and growth are celebrated, ensuring every developer can thrive and contribute to shaping 
         the future of the Artr platform.
