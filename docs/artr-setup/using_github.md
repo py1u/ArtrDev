@@ -7,7 +7,7 @@ id: github
 We use Github to monitor and track changes in our development. Here you can see our code base and entire development for Artr.
 Below is a also quick guide on Git commands and how to perform common github actions as a developer. 
 
-A table of contents has been added!
+A table of contents has been added for quick reference.
 
 ---
 

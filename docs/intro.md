@@ -6,7 +6,7 @@ sidebar_position: 2
 
 How build **ArtrDev**.
 
-**NOTE:** This page shows you how you can build a documentation website like ArtrDev, this does not actually run the development environment for contributing to ArtrDev.
+**NOTE:** This page shows you how you can build a documentation website like ArtrDev, this does not actually run the development environment for contributing to Artr.
 
 ArtrDev is powered by **Docusaurus** a API that handles building most of the website and allows us to focus on writing and reading our Artr documentation.
 
