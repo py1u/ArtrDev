@@ -110,17 +110,4 @@ You can install MongoDB locally or use MongoDB Atlas for a cloud-hosted solution
    NextJS is now set up with React and Tailwind.
 
 4. **Connecting NextJS To MongoDB**
-   We need to connect our database to our framework.
-
-   You will need:
-      - Atlas Account
-      - Vercel Account
-      - NodeJS and npm
-      - NextJS App
-
-      
-
-
-## Conclusion
-
-
+   We have to connect NextJS with a database
