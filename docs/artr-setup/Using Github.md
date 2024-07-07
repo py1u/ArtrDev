@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Using Git and Github'
+sidebar_label: 'Git and Github'
 sidebar_position: 3
 id: github
 ---
