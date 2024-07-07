@@ -6,7 +6,7 @@ id: start
 
 # Getting Set Up For Development
 
-This guide provides instructions for setting up the 4 basic components of the tech stack: MongoDB, Express.js, React, and Node.js.
+This guide provides instructions for setting up the stack for development.
 
 ## Step 1: Install Node.js and npm
 
@@ -16,6 +16,17 @@ Node.js is the runtime for the server-side application, and npm is the Node pack
 
 1. **Download Node.js:**
    - Visit [Node.js website](https://nodejs.org/) and download the LTS version suitable for your OS.
+
+   - **Windows/MacOS/Linux**: You can download Node.js from the [official Node.js website](https://nodejs.org/). Choose the LTS version for the best stability.
+
+   - **Using a Package Manager**: You can also install Node.js using a package manager like Homebrew (for **MacOS**).
+      Links:
+      - Homebrew: https://brew.sh/
+  
+  **MacOS:**
+  ```bash
+  brew install node
+  ```
 
 2. **Install Node.js:**
    - Run the downloaded installer and follow the installation prompts.
@@ -42,7 +53,7 @@ You can install MongoDB locally or use MongoDB Atlas for a cloud-hosted solution
 3. **Start MongoDB:**
    - Typically, start MongoDB using `mongod` in the terminal.
 
-### Using MongoDB Atlas:
+### Using MongoDB Atlas(preferred):
 
 1. **Create an Account and Setup:**
    - Register or log in at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
@@ -57,6 +68,9 @@ You can install MongoDB locally or use MongoDB Atlas for a cloud-hosted solution
    - Use the provided connection string to connect your app to MongoDB Atlas.
 
 ## Step 3: Set Up NextJS
+
+**If you are setting up a completely new project:**
+
 1. **Create a projeect directory to store your work locally**
    ```markdown
    mkdir project-name
@@ -69,7 +83,11 @@ You can install MongoDB locally or use MongoDB Atlas for a cloud-hosted solution
    ```
 - This contains a README.md from the repo. Delete or copy the markdown content since installing NextJs will create a file directory with a README.md
 
+
 3. **Installing NextJS**
+
+**If you are setting up a completely new project:**:
+
    Have [NodeJS 18.17 or later](https://nodejs.org/) before installing.
    ```markdown
    npx create-next-app@latest
@@ -85,6 +103,9 @@ You can install MongoDB locally or use MongoDB Atlas for a cloud-hosted solution
    Would you like to customize the default import alias (@/*)? No / Yes
    What import alias would you like configured? @/*
    ```
+**If you are setting up a existing project(Artr codebase)**:
+
+   Run ```npm install```
 
    NextJS is now set up with React and Tailwind.
 
