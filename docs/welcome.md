@@ -15,7 +15,7 @@ Hey fellow developer! Welcome to ArtrDev: a documentation platform that powers t
 
 ### Authors:
 
-Peter Lu,  Serena Lew, Haocheng Mai, Valerie Wong, Alex Zhang
+Peter Lu, Serena Lew, Haocheng Mai, Valerie Wong, Alex Zhang
 
 
 
