@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Our Tech Stack'
+sidebar_label: "Our Tech Stack"
 sidebar_position: 1
 id: stack
 ---
@@ -26,12 +26,12 @@ Let's break down each technology within our tech stack:
 - **React (Frontend Library):** A popular library for creating dynamic and responsive user interfaces. React allows for efficient building of complex interfaces and smooth user experiences.
 - **NextJS(Fullstack framework)** A fullstack framework that builds on top of react to perform SSR and simplifies the steps towards deployment with Vercel.
 - **NodeJS (JavaScript Runtime Environment):** Node.js allows you to run JavaScript code outside the browser, on the server-side. This enables communication between the frontend and backend using a single language.
-- **Vercel(Cloud hosting)**: A cloud platform that allows rapid deployment of Nextjs Apps. 
-- **Docker**(Containerization): A open platform for shipping apps in containers to rapidly test and deploy our product. 
-- **Prisma**(ORM): A ORM tool used to help developers interact with databases quicker with their desired programming language over raw SQL queries. 
-- **Redis**: A in-memory database using cache as a durable data store to deliver data at high speeds. 
+- **Vercel(Cloud hosting)**: A cloud platform that allows rapid deployment of Nextjs Apps.
+- **Docker**(Containerization): A open platform for shipping apps in containers to rapidly test and deploy our product.
+- **Prisma**(ORM): A ORM tool used to help developers interact with databases quicker with their desired programming language over raw SQL queries.
+- **Redis**: A in-memory database using cache as a durable data store to deliver data at high speeds.
 - **AWS Amplify**: A open source framework to accerlate deployment of web applications
-- **AWS Lambda**: A serverless compute function as a service to run code without managing servers. 
+- **AWS Lambda**: A serverless compute function as a service to run code without managing servers.
 
 ---
 
@@ -60,7 +60,8 @@ Let's break down each technology within our tech stack:
 ---
 
 ### Technical Skills
-Developers are required to have at least 2 years of experience in one of the programming languages and at least 1 year in a query language. Below are all the technical skills you will be utilizing as a developer. 
+
+Developers are required to have at least 2 years of experience in one of the programming languages and at least 1 year in a query language. Below are all the technical skills you will be utilizing as a developer.
 
 **Programming Languages:**
 
@@ -77,18 +78,3 @@ Developers are required to have at least 2 years of experience in one of the pro
 - **SQL:** A standard language for managing and manipulating relational databases. SQL allows for efficient querying, updating, and organizing of structured data.
 
 - **NoSQL:** A category of database management systems designed to handle unstructured data. NoSQL databases, such as MongoDB, provide flexible schemas and scalability for large-scale applications.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
