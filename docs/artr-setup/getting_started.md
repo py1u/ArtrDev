@@ -22,7 +22,8 @@ Node.js is the runtime for the server-side application, and npm is the Node pack
 
    - **Using a Package Manager**: You can also install Node.js using a package manager like Homebrew (for **MacOS**).
      Links:
-     - Homebrew: <https://brew.sh/>
+
+   - Homebrew: (https://brew.sh/)
 
    **MacOS:**
 
@@ -115,8 +116,8 @@ Would you like to use ESLint? No / Yes
 Would you like to use Tailwind CSS? No / Yes
 Would you like to use `src/` directory? No / Yes
 Would you like to use App Router? (recommended) No / Yes
-Would you like to customize the default import alias (@/*)? No / Yes
-What import alias would you like configured? @/*
+Would you like to customize the default import alias ()? No / Yes
+What import alias would you like configured?
 ```
 
 **If you are setting up a existing project(Artr codebase)**:
