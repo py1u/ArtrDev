@@ -56,7 +56,7 @@ Currently we have three Repos:
 
 #### What is our Github
 
-Here is the direct link to Artr: <https://github.com/ArtrSpace/Artr>
+Here is the direct link to Artr: (https://github.com/ArtrSpace/Artr)
 
 ## GitHub Setup
 
@@ -64,7 +64,7 @@ Here is the direct link to Artr: <https://github.com/ArtrSpace/Artr>
 
 To install Git, follow the instructions on the [official Git website](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-For link to windows: <https://git-scm.com/download/win>
+For link to windows: (https://git-scm.com/download/win)
 
 Here you should download the 64 bit version for windows.
 
